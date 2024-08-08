@@ -1,0 +1,19 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-color: #0099ff;
+}
+    h1{
+        text-align:center;
+        color:hwb(0 0% 100%);
+    }
+    form{
+        max-width:500px;
+        margin: auto;
+        padding: 30px;
+        background-color:beige;
+        border-radius: 10px;
+    }
+    p{
+        font-size: large;
+        color: red;
+    }
