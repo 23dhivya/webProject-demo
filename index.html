@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+    <html lang ="en">
+    <head>
+     <meta charset=""UTF-8"/>
+     <meta name="viewport" content=""width=device-width,initial-scale=3.0"/>
+     <title> login form</title>
+     <link rel="stylesheet" href="style.css"/>
+     <script type="text/javascript" src="myform.js"></script>
+    </head>
+    <body>
+        
+        <form name="myForm",action="./App1.java",onsubmit="return validateForm()",method="post">
+            <h1>SIGN UP</h1><BR><BR>
+            <label>USER NAME:</label>
+            <input type="text" name="text1"><BR><br>
+            <label>EMAIL ID:</label>
+            <input type="email" name="mailid"><br><br>
+            <label>PASSWORD:</label>
+            <input type="password" name="password"><br><br>
+            <label>CONFIRM PASSWORD</label>
+            <input type="password" name="confpassword"><br><br>
+
+            <input type="submit" onclick="validateForm()"><BR><BR>
+                <a href="login.html">Click here to login</a>
+        </form>
+    </body>
+</html>
